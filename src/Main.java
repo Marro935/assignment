@@ -20,6 +20,7 @@ sum();
     }
 
     public static void multi() {
+        //Formulae to get value for two numbers
         int num1;
         int num2;
         int multiplication;
@@ -29,29 +30,37 @@ sum();
         System.out.println("Enter Second Number");
         num2 = multi.nextInt();
         multiplication = num1 * num2;
+        //method
         System.out.println("Multiplication is: " + multiplication);
     }
 public static void SQ(){
+    //Formulae to get the Square values
         int num1;
         int num2;
         int square;
         Scanner SQ= new Scanner(System.in);
+    //input of values
     System.out.println(" First number:");
     num1 = SQ.nextInt();
     System.out.println("Second number");
     square=num1*num1;
+    //method
     System.out.println("the square is: " + square);
     }
     public static void sum(){
+        //Formulae and output of summation values
+        //Declaration of values
         int number1;
         int number2;
         int sum;
         Scanner Sum=new Scanner(System.in);
+        //Input and Initialization of values
         System.out.println(" First number:");
         number1=Sum.nextInt();
         System.out.println(" Second number:");
         number2=Sum.nextInt();
         sum=number1+number2;
+        //method
         System.out.println("the sum is: " + sum);
     }
     }
